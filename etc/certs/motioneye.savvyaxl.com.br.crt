@@ -1,0 +1,117 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 35330520514618 (0x20220720003a)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=BR, ST=Parana, L=Sao Jose dos Pinhais, O=Security, OU=Web Server, CN=My CA
+        Validity
+            Not Before: Jun 11 01:33:46 2025 GMT
+            Not After : Jun 11 01:33:46 2026 GMT
+        Subject: C=BR, ST=Parana, L=Sao Jose dos Pinhais, O=Security, OU=Web Server, CN=motioneye.savvyaxl.com.br
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (3072 bit)
+                Modulus:
+                    00:bb:fc:73:d3:f6:be:3f:a5:9f:95:5a:dd:73:ad:
+                    3f:bb:d9:91:b1:d6:bb:0f:fa:72:f7:ba:a2:b9:4a:
+                    13:55:e9:eb:9d:2b:89:92:35:39:a4:99:52:40:ee:
+                    f7:04:45:ce:f9:08:bb:62:ce:71:60:90:8d:68:57:
+                    fa:93:6a:20:ca:bb:7f:72:39:d9:14:65:b3:5d:0b:
+                    57:42:50:95:db:15:4a:8e:38:54:b9:f0:40:fb:69:
+                    59:e3:fe:60:b0:dd:64:7c:32:97:28:c9:4f:6c:2e:
+                    c7:90:9f:3c:83:a6:1a:b2:a0:06:c0:95:cc:61:35:
+                    58:5e:5b:e8:ac:d6:99:5c:bf:3f:8d:7f:6c:e8:62:
+                    b1:8f:ee:8c:65:b1:c2:e6:9a:6f:58:7d:0b:ba:35:
+                    e6:40:ef:2d:4f:ce:93:99:e7:f2:6b:f8:bb:29:76:
+                    b2:18:1a:f0:3b:26:38:0d:ac:ac:a4:b1:2f:67:8f:
+                    2e:f5:ae:99:75:74:50:e2:7a:ad:c5:ef:00:34:fd:
+                    f5:1e:35:2e:bf:e0:4b:e2:fb:02:3d:4f:ba:c9:1b:
+                    84:92:53:80:d2:bb:8d:15:7b:13:4e:53:f4:45:75:
+                    a7:68:84:78:be:8e:19:78:de:ee:99:08:dc:53:ac:
+                    f9:7e:55:f6:21:46:d7:54:e5:2b:c5:32:4a:b7:ef:
+                    18:3c:71:29:2e:a3:47:fa:05:ab:26:19:ff:4b:cd:
+                    f9:e2:f4:3b:8f:6c:f7:cf:f5:31:f6:56:3d:ab:5b:
+                    ea:0e:f0:3c:75:dc:71:31:8a:a6:9a:b0:d1:c9:6c:
+                    61:85:24:d2:e5:8b:b4:04:05:96:e8:2b:d3:28:8d:
+                    8b:27:9c:9a:d9:d4:f8:8b:8a:27:c2:ee:27:4a:d5:
+                    bf:27:2a:c1:22:d7:3a:91:20:f3:bf:cb:91:76:aa:
+                    7a:2d:72:06:85:7e:ba:de:e0:7d:62:fd:42:89:c0:
+                    a0:3d:65:3e:29:b7:07:65:da:11:f7:2b:da:3d:76:
+                    71:a6:b6:46:7a:4b:aa:9e:db:3d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:motioneye.savvyaxl.com.br
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Key Identifier: 
+                62:35:9A:CD:2B:2A:84:49:94:AE:37:00:30:BD:39:DA:ED:C3:0A:D6
+            X509v3 Authority Key Identifier: 
+                69:AA:BA:3D:89:30:F0:7B:71:CB:14:9E:E8:B9:04:51:17:CF:8C:FA
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        9d:eb:2b:0d:e1:da:fe:52:26:65:8a:d0:c6:c2:3c:09:56:91:
+        d2:8b:65:af:7a:5a:c6:e3:7d:b6:01:ea:68:0d:18:9b:26:54:
+        05:85:98:99:bf:5f:f4:fd:27:1d:f4:02:3e:8e:1e:a0:3a:e4:
+        23:fb:e3:f4:e0:a1:1e:68:f8:df:26:1d:5a:9b:05:20:1f:66:
+        c9:0b:c8:4f:62:37:ae:99:11:53:a6:e2:2e:0b:e4:43:75:9f:
+        3f:72:0b:96:5b:1f:3d:55:d7:26:47:f9:24:4b:c3:11:ef:a4:
+        0f:e1:59:06:00:da:02:36:db:e0:71:70:2d:d2:8f:64:cb:82:
+        0c:7e:af:62:28:9b:3b:3b:9c:c9:6b:d3:36:6a:c1:d4:c4:a4:
+        94:1d:27:c5:d9:7d:f3:67:7a:0d:37:2e:23:f2:0b:bf:52:0c:
+        7e:0b:01:91:c5:7c:14:d3:a9:ed:f6:04:6a:4e:9a:f1:3a:74:
+        02:ea:cb:19:39:c2:d2:23:a6:b0:28:67:c0:9c:1c:09:0b:34:
+        76:73:2e:fe:fc:a9:59:8c:0c:e6:53:42:a4:35:1e:ff:79:17:
+        cd:1f:0a:4d:91:5b:af:ec:47:9b:ed:91:39:2e:0f:be:1d:29:
+        63:7a:52:70:5e:3a:af:bf:a6:36:99:4e:14:f0:5a:b8:77:23:
+        32:61:98:9d:e3:07:f6:9d:30:01:bc:c6:14:2d:7c:84:ec:e1:
+        31:2c:27:1c:93:62:4a:9e:ce:67:19:3c:37:3e:2b:43:00:79:
+        70:15:f5:48:ae:33:16:fe:a0:b3:38:58:1c:42:df:dc:27:95:
+        34:0d:2b:db:09:74:de:f8:a9:1b:99:44:b3:86:b3:21:39:fa:
+        31:79:2a:69:0c:7d:a1:79:a9:20:b4:d7:a6:ce:0c:e7:de:29:
+        da:6d:f5:60:22:55:bc:27:6f:56:a7:99:fb:c9:bf:b7:ef:9e:
+        bb:bb:69:47:23:cb:55:e0:6c:36:5c:c2:b1:66:a6:eb:97:c7:
+        04:50:ab:9a:8b:03:b5:9b:83:07:48:fe:a3:c2:c4:64:14:d3:
+        41:95:e2:63:36:16:c4:18:c5:d0:90:76:3a:1a:c3:64:e1:de:
+        d7:6e:6c:a3:e8:2e:72:d4:60:8e:f8:9c:af:99:1e:97:1c:33:
+        16:1f:61:c5:f2:5a:1e:dc:05:16:8a:a1:27:7c:75:c7:1b:0d:
+        72:cb:29:55:e1:c9:62:c0:4b:1e:36:c1:d5:aa:70:1d:06:2c:
+        ea:02:82:67:cc:10:e9:3f:55:06:83:ed:57:4b:c8:7c:12:d9:
+        46:a4:9b:44:c7:8b:59:f2:b9:30:4c:7e:c3:2c:29:b4:67:1b:
+        06:d9:cf:29:3d:27:63:a0
+-----BEGIN CERTIFICATE-----
+MIIFljCCA36gAwIBAgIGICIHIAA6MA0GCSqGSIb3DQEBCwUAMHUxCzAJBgNVBAYT
+AkJSMQ8wDQYDVQQIDAZQYXJhbmExHTAbBgNVBAcMFFNhbyBKb3NlIGRvcyBQaW5o
+YWlzMREwDwYDVQQKDAhTZWN1cml0eTETMBEGA1UECwwKV2ViIFNlcnZlcjEOMAwG
+A1UEAwwFTXkgQ0EwHhcNMjUwNjExMDEzMzQ2WhcNMjYwNjExMDEzMzQ2WjCBiTEL
+MAkGA1UEBhMCQlIxDzANBgNVBAgMBlBhcmFuYTEdMBsGA1UEBwwUU2FvIEpvc2Ug
+ZG9zIFBpbmhhaXMxETAPBgNVBAoMCFNlY3VyaXR5MRMwEQYDVQQLDApXZWIgU2Vy
+dmVyMSIwIAYDVQQDDBltb3Rpb25leWUuc2F2dnlheGwuY29tLmJyMIIBojANBgkq
+hkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAu/xz0/a+P6WflVrdc60/u9mRsda7D/py
+97qiuUoTVenrnSuJkjU5pJlSQO73BEXO+Qi7Ys5xYJCNaFf6k2ogyrt/cjnZFGWz
+XQtXQlCV2xVKjjhUufBA+2lZ4/5gsN1kfDKXKMlPbC7HkJ88g6YasqAGwJXMYTVY
+XlvorNaZXL8/jX9s6GKxj+6MZbHC5ppvWH0LujXmQO8tT86Tmefya/i7KXayGBrw
+OyY4DayspLEvZ48u9a6ZdXRQ4nqtxe8ANP31HjUuv+BL4vsCPU+6yRuEklOA0ruN
+FXsTTlP0RXWnaIR4vo4ZeN7umQjcU6z5flX2IUbXVOUrxTJKt+8YPHEpLqNH+gWr
+Jhn/S8354vQ7j2z3z/Ux9lY9q1vqDvA8ddxxMYqmmrDRyWxhhSTS5Yu0BAWW6CvT
+KI2LJ5ya2dT4i4onwu4nStW/JyrBItc6kSDzv8uRdqp6LXIGhX663uB9Yv1CicCg
+PWU+KbcHZdoR9yvaPXZxprZGekuqnts9AgMBAAGjgZYwgZMwJAYDVR0RBB0wG4IZ
+bW90aW9uZXllLnNhdnZ5YXhsLmNvbS5icjAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF
+4DATBgNVHSUEDDAKBggrBgEFBQcDATAdBgNVHQ4EFgQUYjWazSsqhEmUrjcAML05
+2u3DCtYwHwYDVR0jBBgwFoAUaaq6PYkw8HtxyxSe6LkEURfPjPowDQYJKoZIhvcN
+AQELBQADggIBAJ3rKw3h2v5SJmWK0MbCPAlWkdKLZa96WsbjfbYB6mgNGJsmVAWF
+mJm/X/T9Jx30Aj6OHqA65CP74/TgoR5o+N8mHVqbBSAfZskLyE9iN66ZEVOm4i4L
+5EN1nz9yC5ZbHz1V1yZH+SRLwxHvpA/hWQYA2gI22+BxcC3Sj2TLggx+r2Iomzs7
+nMlr0zZqwdTEpJQdJ8XZffNneg03LiPyC79SDH4LAZHFfBTTqe32BGpOmvE6dALq
+yxk5wtIjprAoZ8CcHAkLNHZzLv78qVmMDOZTQqQ1Hv95F80fCk2RW6/sR5vtkTku
+D74dKWN6UnBeOq+/pjaZThTwWrh3IzJhmJ3jB/adMAG8xhQtfITs4TEsJxyTYkqe
+zmcZPDc+K0MAeXAV9UiuMxb+oLM4WBxC39wnlTQNK9sJdN74qRuZRLOGsyE5+jF5
+KmkMfaF5qSC016bODOfeKdpt9WAiVbwnb1anmfvJv7fvnru7aUcjy1XgbDZcwrFm
+puuXxwRQq5qLA7WbgwdI/qPCxGQU00GV4mM2FsQYxdCQdjoaw2Th3tdubKPoLnLU
+YI74nK+ZHpccMxYfYcXyWh7cBRaKoSd8dccbDXLLKVXhyWLASx42wdWqcB0GLOoC
+gmfMEOk/VQaD7VdLyHwS2Uakm0THi1nyuTBMfsMsKbRnGwbZzyk9J2Og
+-----END CERTIFICATE-----

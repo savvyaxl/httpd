@@ -1,0 +1,47 @@
+version: '2.4'
+
+services:
+  httpd-php:
+    build:
+      context: ./
+      dockerfile: Dockerfile-http
+      network: host
+    container_name: httpd
+    volumes:
+      - httpd-site:/var/www/html:z
+      #- httpd-log:/var/log/httpd:z
+    restart: on-failure:5
+    security_opt:
+      - no-new-privileges
+    network_mode: host
+
+  db:
+    image: mysql
+    container_name: mysql
+    restart: always
+    volumes:
+      - mysql-data:/var/lib/mysql:z
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+volumes:
+  httpd-site:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /mnt/backup/site
+  httpd-log:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /mnt/backup/httpd/log
+  mysql-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /mnt/backup/mysql/data
+
+

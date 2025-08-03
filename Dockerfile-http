@@ -1,0 +1,24 @@
+FROM registry.access.redhat.com/ubi9/php-82
+
+# Set ownership for application files
+USER 0
+RUN 	rm -rf /var/log/httpd && rm -rf /var/log/php-fpm && \
+	mkdir -p /var/log/httpd /var/log/php-fpm /etc/httpd/certs && \
+	chown -R 1001:0 /var/www/html /var/log/httpd /var/log/php-fpm &&\
+	echo "alias ll='ls -l'" > /etc/profile.d/alias.sh
+
+
+COPY etc/certs/* /etc/httpd/certs
+COPY etc/conf/* /etc/httpd/conf
+COPY etc/conf.d/* /etc/httpd/conf.d
+
+USER 1001
+
+
+EXPOSE 80
+
+EXPOSE 443
+
+
+# The base image's CMD should handle starting httpd and php-fpm
+CMD /usr/libexec/s2i/run

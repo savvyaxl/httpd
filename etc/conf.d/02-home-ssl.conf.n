@@ -1,0 +1,43 @@
+<IfModule mod_ssl.c>
+        <VirtualHost *:443>
+                ServerAdmin             webmaster@localhost
+                ServerName home.savvyaxl.com.br
+
+                SSLEngine on
+                Protocols h2 http/1.1
+                SSLCipherSuite ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384
+                SSLHonorCipherOrder on
+
+                SSLVerifyClient         require
+
+
+        SSLCertificateFile      /etc/httpd/certs/home.savvyaxl.com.br.pem
+        SSLCertificateKeyFile   /etc/httpd/certs/home.savvyaxl.com.br.key
+        SSLCACertificateFile    /etc/httpd/certs/bundle.crt
+
+                SSLProxyEngine          on              
+                ProxyPreserveHost       on
+                SSLProxyCheckPeerCN     off
+                SSLProxyCheckPeerExpire off
+                ProxyPass               "/"     "https://192.168.0.54:8456/"
+                ProxyPassReverse        "/"     "https://192.168.0.54:8456/"
+
+                ProxyPass               /api/websocket wss://192.168.0.54:8456/api/websocket
+                ProxyPassReverse        /api/websocket wss://192.168.0.54:8456/api/websocket
+
+
+                RewriteEngine           on
+                RewriteCond             %{HTTP:Upgrade} =websocket [NC]
+                RewriteRule             /(.*)  wss://192.168.0.54:8456/$1 [P,L]
+
+
+                <FilesMatch "\.(cgi|shtml|phtml|php)$">
+                        SSLOptions +StdEnvVars
+                </FilesMatch>
+                <Directory /usr/lib/cgi-bin>
+                        SSLOptions +StdEnvVars
+                </Directory>
+
+        </VirtualHost>
+</IfModule>
+
