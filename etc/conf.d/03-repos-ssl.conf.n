@@ -1,0 +1,11 @@
+<VirtualHost *:443>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html/repos
+	ServerName repos.nfs.info
+	ServerAlias repos.savvyaxl.com.br
+        SSLCertificateFile      /etc/httpd/certs/repos.nfs.info.pem
+        SSLCertificateKeyFile   /etc/httpd/certs/repos.nfs.info.key
+        SSLCACertificateFile    /etc/httpd/certs/bundle.crt
+	SSLProtocol all -SSLv3 -TLSv1 -TLSv1.1 -TLSv1.2	
+</VirtualHost>
+
